@@ -1,0 +1,180 @@
+/*@import "nativescript-theme-core/css/core.light.css";*/
+
+.visible-cell {
+    /*animation-name: visibility;*/
+    /*animation-duration: 1s;*/
+    /*animation-timing-function: linear;*/
+    height: auto;
+    /*animation-fill-mode: forwards;*/
+}
+.invisible-cell {
+    /*animation-name: invisibility;*/
+    /*animation-duration: 1s;*/
+    height: 0;
+    /*animation-timing-function: linear;*/
+    /*animation-fill-mode: forwards;*/
+}
+
+
+.plan-heading {
+    font-size: 20;
+    font-family: Roboto-Medium;
+    color: #413D39;
+    letter-spacing: 0.086px;
+}
+
+.plan-form TextFeild{
+    font-family: Roboto-Regular;
+    font-size: 16;
+    color: #413D39;
+    background-image: url(res://triangle);
+    background-repeat: no-repeat;
+    background-position: right center;
+    border-width: 2px;
+    border-bottom-color: #007D57;
+    width: 50px;
+    height: auto;
+    border-style: solid;
+}
+.plan-form .info-label{
+    font-family: Roboto-Regular;
+    font-size: 14;
+    color: #007D57;
+}
+.plan-form .note{
+    font-family: Roboto-Regular;
+    font-size: 14;
+    color: #413D39;
+}
+.plan-form Label.black_label{
+    font-family: Roboto-Regular;
+    font-size: 16;
+    color: #413D39;
+}
+.loren-detail .h2{
+    font-family: Roboto-Regular;
+    font-size: 16;
+    color: #FFFFFF;
+    letter-spacing: 0.08px;
+}
+.lorem-Ipsum {
+    background: transparent;
+}
+.lorem-Ipsum .h2{
+    background-color: #CB3000;
+    height: 46px;
+    text-align: center;
+}
+.lorem-Ipsum .cell.active{
+    background-color: #CB3000;
+    opacity: 0.9;
+    color: #FFFFFF;
+}
+.lorem-Ipsum .cell.active .normal-date{
+    color: #FFFFFF !important;
+}
+.normal-date{
+    font-family: Roboto-Medium;
+    font-size: 16;
+}
+
+.loren-detail .cell{
+    background-color: #FFFFFF;
+    width: 100%;
+    font-family: Roboto-Medium;
+    font-size: 16;
+    color: #413D39;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #979797;
+}
+.cell .details{
+    font-family: Roboto-Regular;
+    font-size: 16;
+    color: #413D39;
+    text-wrap: normal;
+}
+.active-details {
+    color: #ffffff !important;
+    font-family: Roboto-Regular;
+    font-size: 16;
+    color: #FFFFFF;
+    text-wrap: normal;
+}
+.cell.active{
+    z-index: -999;
+}
+.cell.active Image{
+    margin-left: -25px;
+    z-index: 9999;
+}
+
+.loren-detail{
+    background-color: #F3F5EC;
+}
+.loren-detail StackLayout{
+    margin-top: 20px;
+}
+
+
+
+.oval-grey{
+    background-color: #6C6C6C;
+    color: #ffffff;
+    width: 24px;
+    height: 24px;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-radius: 12px;
+    /*margin-left: -20px;*/
+    font-family: Roboto-Black;
+}
+
+.plan-text-field {
+    /*border-bottom-color: #007D57;*/
+    background: none;
+    /*margin-left: 10px;*/
+    color: #413D39;
+    opacity: 0.5;
+    font-size: 20;
+    font-family: Roboto-Regular;
+}
+
+.name_this_plan {
+    font-size: 20;
+}
+
+.p-t-30 {
+    padding-top: 30px;
+}
+.p-t-40 {
+    padding-top: 40px;
+}
+.p-r-50 {
+    padding-right: 50;
+}
+.p-r-70 {
+    padding-right: 70;
+}
+.p-r-80 {
+    padding-right: 80;
+}
+.p-l-7 {
+    padding-left: 7px;
+}
+.p-l-4 {
+    padding-left: 4px;
+}
+.m-b-50 {
+    margin-bottom: 50px;
+}
+.p-b-50 {
+    padding-bottom: 50px;
+}
+
+.hidden {
+    visibility: collapse;
+}
+.visible {
+    visibility: visible;
+}
